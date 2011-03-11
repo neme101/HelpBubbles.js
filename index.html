@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>Test HelpPopup</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+	<script type="text/javascript" src="mootools/mootools-core-1.3.js"></script>
+	<script type="text/javascript" src="mootools/mootools-more.js"></script>
+	<script type="text/javascript" src="helpBubble.js"></script>
+	<style type="text/css">
+		body {
+			font-size: 10px;
+		}
+		div.p {
+			position:absolute;
+			margin:20px;
+		}
+		div.p1 {
+			top: 5px;
+			left: 5px;
+			width: 300px;
+		}
+		div.p2 {
+			bottom: 5px;
+			left: 5px;
+			width: 200px;
+		}
+		div.p3 {
+			top: 5px;
+			right: 5px;
+			width: 250px;
+		}
+		div.p4 {
+			bottom: 5px;
+			right: 5px;
+			width: 300px;
+		}
+		
+	</style>
+</head>
+<body>
+	<p align="center">
+		<button class="triggerHelp" data-anchor-title="Help" data-anchor-text="You can always click here if you feel like you don't know what's on the page.">Help Here! Click Me!</button>
+	</p>
+	
+	<div class="p p1" data-anchor-title="Title 1" data-anchor-text="This is the first paragraph or Lorem Ipsum">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan feugiat augue a lacinia. In vestibulum varius risus, lobortis congue dolor fringilla at. Ut pulvinar hendrerit dolor. Donec ornare adipiscing mi nec interdum. Duis sem nisi, tempor sed hendrerit ac, aliquam ac urna. Mauris adipiscing bibendum euismod. Ut sollicitudin est turpis. Donec quis justo diam, et mollis enim. Fusce imperdiet consequat mollis. Pellentesque volutpat erat pellentesque mauris eleifend convallis. Cras a quam risus. Sed leo turpis, vehicula eu sodales vitae, commodo sed ipsum. Sed nec ligula augue. Nunc faucibus dictum viverra. Vivamus suscipit cursus viverra. Suspendisse odio ante, cursus et hendrerit in, auctor at lacus. Ut quis erat nisi. 
+	</div>
+	<div class="p p2" data-anchor-title="Title 2" data-anchor-text="This is the second paragraph or Lorem Ipsum">
+		Nam aliquam massa sit amet nibh accumsan tempus. Nulla ante mi, sagittis in ullamcorper quis, congue eu libero. Aliquam augue libero, vulputate volutpat tincidunt nec, eleifend eu sapien. Vivamus iaculis hendrerit urna quis elementum. Aliquam egestas molestie justo, non consequat nisl dapibus id. Morbi ut leo nec est bibendum tempus vel quis metus. Etiam iaculis odio non arcu fringilla eget pharetra orci fermentum. Aenean vitae orci erat, et varius diam. Morbi eleifend nisi commodo ligula dignissim vel ullamcorper est tincidunt. Etiam at laoreet elit. Sed accumsan pellentesque felis, at euismod arcu consectetur in. Fusce ac odio sapien, sit amet sodales nunc. Donec ultrices, ipsum a luctus suscipit, sem metus laoreet massa, eget tempus lectus nibh nec dui. 
+	</div>
+	<div class="p p3" data-anchor-title="Title 3" data-anchor-text="This is the third paragraph or Lorem Ipsum">
+		Cras tortor velit, molestie quis mattis sed, eleifend nec justo. Aliquam rhoncus sem orci. Phasellus vel eros ut sem viverra tristique quis a massa. Nulla facilisi. Sed euismod, est at convallis vehicula, velit orci ultricies arcu, ut rutrum neque risus vitae justo. Donec scelerisque ultrices quam at imperdiet. Ut condimentum consectetur elementum. Proin vulputate justo sit amet felis commodo sodales a vel nibh. Nulla facilisi. Aenean vitae ligula in ligula fringilla elementum. Sed sodales cursus ligula, quis rutrum turpis lacinia ac. Sed nec purus ac enim lobortis fringilla molestie et urna. Phasellus consectetur orci at diam iaculis imperdiet. 
+	</div>
+	<div class="p p4" data-anchor-title="Title 4" data-anchor-text="This is the fourth paragraph or Lorem Ipsum">
+		Curabitur ut malesuada turpis. Nullam purus nulla, interdum vel mattis vel, commodo at lacus. Vestibulum sed nunc et justo tincidunt gravida sit amet vitae sapien. Nam a ligula sem, vel tempor sapien. In hac habitasse platea dictumst. Vestibulum at nunc turpis. In hac habitasse platea dictumst. Pellentesque in urna mi. Morbi iaculis vehicula ante. Vivamus mattis ipsum sed orci gravida id auctor ipsum porta. Proin varius placerat lacus at tincidunt. Donec non dolor a mauris dignissim gravida. Sed tempus blandit orci sed pellentesque. Vestibulum non pulvinar nisi. Integer sit amet lacus vel ante imperdiet commodo id id dolor. Maecenas ultricies vestibulum massa ut pellentesque. Vivamus sagittis molestie sem non luctus. 
+	</div>
+	<script type="text/javascript">
+	popup = new HelpPopup;
+	</script>
+</body>
+</html>
