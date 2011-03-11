@@ -3,7 +3,7 @@
         Implements: [Options, Events],
 
         options: {
-            anchorOrder: 'data-anchor-order',
+//            anchorOrder: 'data-anchor-order',
             anchorTitle: 'data-anchor-title',
             anchorText: 'data-anchor-text',
             popupContainerClass: 'Bubble',
@@ -22,7 +22,7 @@
             nextTriggerId: 'help-trigger-next',
             nextTriggerText: 'Next',
             nextTriggerClass: 'Bnext',
-            prevTriggerId: 'help-trigger-next',
+            prevTriggerId: 'help-trigger-prev',
             prevTriggerText: 'Prev',
             prevTriggerClass: 'Bprev',
             titleAttribute: 'strong',
@@ -70,7 +70,7 @@
            var popupCloseLink = new Element('a', {
               'class': this.options.popupClassClose,
               'href': '#',
-              'text': this.options.popupCloseText
+              'html': this.options.popupCloseText
            });
            var popupContent = new Element('div',{
               'class': this.options.popupClassContent
@@ -110,12 +110,12 @@
             var popupNextLink = new Element('a',{
               'class': this.options.nextTriggerClass,
               'href': '#',
-              'text': this.options.nextTriggerText
+              'html': this.options.nextTriggerText
             });
             var popupPrevLink = new Element('a',{
               'class': this.options.prevTriggerClass,
               'href': '#',
-              'text': this.options.prevTriggerText
+              'html': this.options.prevTriggerText
             });
 
             var next = this.next.create({
