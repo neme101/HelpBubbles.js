@@ -1,7 +1,7 @@
 /*
 MIT License 
 
-Copyright (c) 2011 - Juan Andrés Peón <juan.peon@replayful.com> Máximo Gómez <maximo.gomez@replayful.com>
+Copyright (c) 2011 - Juan Andrés Peón <juan.peon@replayful.com> - Máximo Gómez <maximo.gomez@replayful.com>
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
