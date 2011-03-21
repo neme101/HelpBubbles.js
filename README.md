@@ -24,7 +24,7 @@ Add the css:
 
 You instantiate the class like this:
 	<script type="text/javascript">
-		popup = new HelpPopup;
+		popup = new HelpBubble;
 	</script>
 
 You need to set a trigger: 
@@ -38,7 +38,7 @@ You're all set. Just add the attributes data-anchor-title to set the title of th
 Options
 -------
 	<script type="text/javascript">
-		popup = new HelpPopup({
+		popup = new HelpBubble({
 			// options
 		});
 	</script>
